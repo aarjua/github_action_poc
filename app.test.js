@@ -11,7 +11,7 @@ describe('Test node module', () => {
     });
 
     it('it should be return a response', async () => {
-        const response = await request.get('/get-data')
+        const response = await request.post('/get-data')
         expect(response.status).toBe(200);
         expect(response.text).toBe("User data")
 
