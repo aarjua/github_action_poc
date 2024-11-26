@@ -6,7 +6,7 @@ describe('Test node module', () => {
     it('it should be return a response', async () => {
         const response = await request.get('/api-health')
         expect(response.status).toBe(200);
-        expect(response.text).toBe("Everything is working fine")
+        expect(response.text).toBe("Everything is working fine!")
 
     });
 });
