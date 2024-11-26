@@ -1,7 +1,7 @@
 name: Github Actions
 on: push
 
-job:
+jobs:
   build:
     runs-on: ubuntu-latest
 
