@@ -48,4 +48,4 @@ jobs:
         run: npm ci
 
       - name: Run test
-        run: npm test -- --maxWorkers=2
+        run: npm test 
